@@ -3,20 +3,20 @@ export default {
     rules: {
         'type-enum': [
             2,
-            "always",
+            'always',
             [
-                "build",
-                "chore",
-                "ci",
-                "docs",
-                "feat",
-                "fix",
-                "perf",
-                "refactor",
-                "revert",
-                "style",
-                "test",
-                "release"
+                'build',
+                'chore',
+                'ci',
+                'docs',
+                'feat',
+                'fix',
+                'perf',
+                'refactor',
+                'revert',
+                'style',
+                'test',
+                'release'
             ]
         ]
     },
