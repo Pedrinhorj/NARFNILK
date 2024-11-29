@@ -1,0 +1,38 @@
+.img {
+  width: 13em;
+}
+.Destaques-main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  flex-direction: row;
+}
+
+.Destaques-main article {
+  position: relative;
+  border: black solid 3px;
+  border-radius: 10px;
+  width: 20em;
+}
+.Destaques-main article:hover {
+  box-shadow: white 1px 1px 1px;
+}
+
+.Destaques-main article .comprar-olhar {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.Destaques-main article .comprar-olhar .comprar {
+  cursor: pointer;
+  width: 9em;
+  background-color: rgb(0, 0, 0);
+}
+
+.Destaques-main article .comprar-olhar .olhar {
+  cursor: pointer;
+  width: 9em;
+  color: black;
+  background-color: rgb(255, 255, 255);
+}
