@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+}
+
+/* Cabeçalho da página, contendo pesquisas e demais botões de acesso rápido */
+
+/* Essa parte é apenas a organização e a cor do cabeçalho */
+header {
+  background-color: #242323;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+}
+.Tittle-logo {
+  width: 15em;
+}
+
+.conteiner1 {
+  display: flex;
+  justify-content: end;
+  margin-top: -8em;
+}
+.buttons-suport {
+  margin-top: -12px;
+}
+/* Segunda parte */
+.conteiner2 {
+  display: flex;
+  gap: 5em;
+}
+
+/* Sessão de atendimento e carrinho e perfil */
+button {
+  background-color: #242323;
+  border: none;
+}
+.button-by,
+.button-profile,
+.button-bussines {
+  width: 4em;
+}
+.button-profile-text,
+.button-bussines-text,
+.button-by-text {
+  color: white;
+}
+/* Primeira parte com atendimento e pequisa */
+
+#button-search {
+  border-radius: 5px;
+  background-color: #535353;
+  height: 3em;
+}
+.image-search {
+  width: 2.5em;
+}
+
+/* configuração da barra de pesquisa */
+input {
+  background-image: url(/images/icones/lupa.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 41em;
+}
+input {
+  border-radius: 9px;
+  width: 45em;
+  height: 3.5em;
+}
+.input-img {
+  display: flex;
+  gap: 5px;
+}
+ul {
+  display: flex;
+  gap: 5em;
+}
+/* Reação dos botões ao serem tocados pelo mouse */
+li {
+  font-size: 1.3em;
+  list-style: none;
+  padding: 1%;
+}
+li:hover {
+  background-color: black;
+  transition-duration: 0.5s;
+}
+/* Carrossel */
+#carouselExampleDark {
+  width: 65em;
+  margin: auto;
+}
+#text-carrossel {
+  text-shadow: black 0 0 9px;
+  color: white;
+}
+h5 {
+  font-size: 5em;
+}
+
+/* Segundo conteiner */
+.main-apresentação,
+.main-objetivo,
+.comprometer,
+.agradecimentos {
+  text-align: center;
+}
+footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  background-color: #242323;
+}
+.icons {
+  width: 2em;
+}

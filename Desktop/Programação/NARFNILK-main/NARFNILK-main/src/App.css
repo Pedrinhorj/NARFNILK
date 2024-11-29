@@ -1,0 +1,82 @@
+header {
+  background-color: #353434;
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+}
+header .container-header-1 {
+  display: grid;
+  grid-template-columns: 80em 1px;
+}
+header .services {
+  display: flex;
+  gap: 15px;
+  justify-content: flex-end;
+}
+header .services button {
+  height: 7em;
+  transition: background-color 0.3s;
+}
+header .services button:hover {
+  background-color: #222222;
+}
+
+nav {
+  display: flex;
+  margin-top: 25px;
+  justify-content: space-around;
+}
+
+span {
+  padding: 0 1% 0;
+  margin-bottom: -22px;
+  transition-duration: 0.3s;
+}
+
+span:hover {
+  border-right: #141414 solid 2px;
+  border-left: #000000 solid 2px;
+  background-color: #252525;
+  transform: scale(1.2);
+}
+input {
+  background-color: #3f3f3f;
+  height: 1.8em;
+  width: 30em;
+  border-radius: 7px;
+}
+input::placeholder {
+  color: white;
+  text-align: start;
+}
+
+button {
+  border-radius: 8px;
+  padding: 5px;
+  background: none;
+  border: none;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo {
+  width: 10em;
+  animation: logoGira 0.9s ease-in-out both;
+}
+
+@keyframes logoGira {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(720deg);
+  }
+}
+
+footer {
+  background-color: #141414;
+  padding: 2%;
+}
