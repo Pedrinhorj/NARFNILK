@@ -6,6 +6,7 @@ import logo from "./assets/images/Logo-title-option3.png";
 import { LuShoppingCart } from "react-icons/lu";
 import { CgProfile } from "react-icons/cg";
 import UncontrolledExample from "./components/Carrossel";
+import Acordion from "./components/acordion";
 
 function App() {
   return (
@@ -55,7 +56,11 @@ function App() {
           <UncontrolledExample />
         </section>
 
-        <section className="container2">Acordion</section>
+        <section className="container2">
+          <br />
+          <Acordion />
+          <br />
+        </section>
         <section className="container3">
           <Destaques />
         </section>

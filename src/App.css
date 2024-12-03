@@ -1,6 +1,6 @@
 header {
   color: white;
-  background-color: #353434;
+  background-color: #0c0c0c;
   padding: 2%;
   display: flex;
   flex-direction: column;
@@ -91,6 +91,7 @@ main {
   margin-top: 3em;
 }
 footer {
+  color: #727272;
   background-color: #141414;
   padding: 2%;
 }
