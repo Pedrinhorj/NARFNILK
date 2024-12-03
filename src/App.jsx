@@ -5,6 +5,7 @@ import Destaques from "./components/destaques";
 import logo from "./assets/images/Logo-title-option3.png";
 import { LuShoppingCart } from "react-icons/lu";
 import { CgProfile } from "react-icons/cg";
+import UncontrolledExample from "./components/Carrossel";
 
 function App() {
   return (
@@ -48,8 +49,10 @@ function App() {
       </header>
 
       <main>
+        <br />
         <section className="container1">
-          <h1>Carrossel</h1>
+          <h2>Seja bem vindo(a) a NARFNILK!!</h2>
+          <UncontrolledExample />
         </section>
 
         <section className="container2">Acordion</section>

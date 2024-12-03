@@ -1,4 +1,5 @@
 header {
+  color: white;
   background-color: #353434;
   padding: 2%;
   display: flex;
@@ -75,7 +76,20 @@ button {
     transform: rotate(720deg);
   }
 }
-
+main {
+  background-color: #1a1a1a;
+  color: white;
+}
+.container1 {
+  display: flex;
+  justify-content: center;
+  gap: 5em;
+}
+.container1 h2 {
+  font-size: 3em;
+  width: 10em;
+  margin-top: 3em;
+}
 footer {
   background-color: #141414;
   padding: 2%;

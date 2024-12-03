@@ -11,28 +11,77 @@
 
 .Destaques-main article {
   position: relative;
-  border: black solid 3px;
-  border-radius: 10px;
   width: 20em;
 }
-.Destaques-main article:hover {
-  box-shadow: white 1px 1px 1px;
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    /* transform: translateY(10px); */
+  }
+  to {
+    opacity: 1;
+    /* transform: translateY(0); */
+  }
+}
+
+/* Estilize o card */
+article {
+  margin-top: 3em;
+  border-left: #313131 solid 5px;
+  border-right: #313131 solid 5px;
+  padding: 16px;
+  border-radius: 8px;
+  position: relative;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+article:hover {
+  transform: scale(1.09);
+}
+
+.comprar-olhar {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.comprar,
+.olhar {
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 .Destaques-main article .comprar-olhar {
   display: flex;
+  border-radius: 7px;
+  gap: 5px;
   justify-content: center;
-  gap: 10px;
-}
-.Destaques-main article .comprar-olhar .comprar {
   cursor: pointer;
-  width: 9em;
-  background-color: rgb(0, 0, 0);
 }
 
-.Destaques-main article .comprar-olhar .olhar {
+.Destaques-main article .comprar-olhar button {
+  padding: 3%;
   cursor: pointer;
   width: 9em;
+}
+.Destaques-main article .comprar-olhar .comprar {
+  background-color: black;
+}
+.Destaques-main article .comprar-olhar .olhar {
+  background-color: white;
   color: black;
-  background-color: rgb(255, 255, 255);
+}
+.Destaques-main article .comprar-olhar .comprar:hover {
+  background-color: #313131;
+}
+.Destaques-main article .comprar-olhar .olhar:hover {
+  background-color: #8f8f8f;
 }
