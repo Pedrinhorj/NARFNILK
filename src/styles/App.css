@@ -1,25 +1,30 @@
 header {
   color: white;
-  background-color: #0c0c0c;
+  background-color: #ff6a06;
   padding: 2%;
   display: flex;
   flex-direction: column;
 }
 header .container-header-1 {
-  display: grid;
-  grid-template-columns: 80em 1px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+header .logo {
+  margin-bottom: 15px;
 }
 header .services {
   display: flex;
-  gap: 15px;
+  gap: 20px;
   justify-content: flex-end;
+  margin-top: -6em;
 }
 header .services button {
   height: 7em;
   transition: background-color 0.3s;
 }
 header .services button:hover {
-  background-color: #222222;
+  background-color: #c25105;
 }
 
 nav {
@@ -35,20 +40,16 @@ span {
 }
 
 span:hover {
-  border-right: #141414 solid 2px;
-  border-left: #000000 solid 2px;
-  background-color: #252525;
+  border-right: #ffffff solid 2px;
+  border-left: #ffffff solid 2px;
   transform: scale(1.2);
 }
 input {
-  background-color: #3f3f3f;
+  background-color: #fffefe;
+  border: none;
   height: 1.8em;
   width: 30em;
   border-radius: 7px;
-}
-input::placeholder {
-  color: white;
-  text-align: start;
 }
 
 button {
@@ -65,7 +66,7 @@ button {
 }
 .logo {
   width: 10em;
-  animation: logoGira 0.9s ease-in-out both;
+  animation: logoGira 1.5s ease-in-out both;
 }
 
 @keyframes logoGira {
@@ -77,8 +78,6 @@ button {
   }
 }
 main {
-  background-color: #1a1a1a;
-  color: white;
 }
 .container1 {
   display: flex;
@@ -91,7 +90,7 @@ main {
   margin-top: 3em;
 }
 footer {
-  color: #727272;
-  background-color: #141414;
+  color: #ffffff;
+  background-color: #ff8800;
   padding: 2%;
 }

@@ -1,16 +1,17 @@
 .accordion-title {
   cursor: pointer;
-  background-color: #000014;
+  background-color: #ff5e00;
   padding: 1%;
   font-size: 1.3em;
 }
 
 .accordion-title:hover {
-  background-color: #010135;
+  background-color: #ff5100;
+  color: white;
 }
 
 .accordion-content {
-  box-shadow: #000014 5px 5px 5px;
+  box-shadow: #ff9a01 5px 5px 5px;
   overflow: hidden;
   height: 0;
   opacity: 0;

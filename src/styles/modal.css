@@ -1,0 +1,20 @@
+.conteiner-modal h1 {
+  color: black;
+  border: black solid 1px;
+  border-radius: 8px;
+  padding: 0 6em 0;
+  height: 1.5em;
+  font-size: 2em;
+}
+.conteiner-modal button {
+  color: black;
+  border: black solid 1px;
+  width: 10em;
+  height: 3em !important;
+  margin-top: 20em;
+  margin-left: 15em;
+}
+.conteiner-modal button:hover {
+  background-color: black !important;
+  color: white !important;
+}

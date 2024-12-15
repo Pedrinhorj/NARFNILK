@@ -1,12 +1,11 @@
-import "./App.css";
+import "./styles/App.css";
 import Footer from "./components/footer";
 import { FaSearch } from "react-icons/fa";
 import Destaques from "./components/destaques";
 import logo from "./assets/images/Logo-title-option3.png";
-import { LuShoppingCart } from "react-icons/lu";
-import { CgProfile } from "react-icons/cg";
 import UncontrolledExample from "./components/Carrossel";
 import Acordion from "./components/acordion";
+import Services from "./components/services";
 
 function App() {
   return (
@@ -16,15 +15,6 @@ function App() {
           <a href="#" target="_blank" rel="noopener noreferrer">
             <img className="logo" src={logo} alt="" />
           </a>
-
-          <div className="services">
-            <button>
-              <LuShoppingCart size={50} />
-            </button>
-            <button>
-              <CgProfile size={50} />
-            </button>
-          </div>
         </div>
 
         <div className="search">
@@ -38,6 +28,8 @@ function App() {
             <FaSearch size={25} />
           </button>
         </div>
+
+        <Services />
         <nav>
           <span>Nossa Página de Música</span>
 
