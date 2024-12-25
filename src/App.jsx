@@ -6,6 +6,7 @@ import logo from "./assets/images/Logo-title-option3.png";
 import UncontrolledExample from "./components/Carrossel";
 import Acordion from "./components/acordion";
 import Services from "./components/services";
+import Navmenu from "./components/Nav-menu";
 
 function App() {
   return (
@@ -30,15 +31,8 @@ function App() {
         </div>
 
         <Services />
-        <nav>
-          <span>Nossa Página de Música</span>
 
-          <span>Nossos Filmes/Séries</span>
-
-          <span>Nossos Livros/HQs</span>
-
-          <span>Nossos Games</span>
-        </nav>
+        <Navmenu />
       </header>
 
       <main>
